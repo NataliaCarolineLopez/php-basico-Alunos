@@ -1,6 +1,24 @@
 <?php
 
-// Digitar PHP (1º Aqui)
+// Verificar os dados do formulário
+// Utilizando o método POST
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+
+    $senha = $_POST['senha'];
+    
+    if($senha === '1234567'){
+        // Redireciona para a página de 'boas vindas'
+        header("Location:4b_bem_vindo.php");
+
+        exit();
+    }else{
+
+        // mensagem de erro
+        $erro = "senha incorreta. Tente novamente!";
+    }
+}
+
 
 ?>
 <!DOCTYPE html>
