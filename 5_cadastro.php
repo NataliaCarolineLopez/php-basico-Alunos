@@ -19,6 +19,13 @@
     </form>
     <?php
 
+    if($_SERVER['REQUEST_METHOD'] == 'POST'){
+
+
+        $nome = $_POST[]
+        $senha = 
+    }
+
     // Digitar PHP (1º Aqui)
     
     ?>
