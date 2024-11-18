@@ -1,3 +1,4 @@
+<!-- USANDO A FUNÇÃO GET -->
 <!-- GET: método HTML padrão, a requisição
  é enviada como uma string anexada a URL -->
 
